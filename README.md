@@ -40,9 +40,13 @@ Screenshots
 Compilation and Installation
 -----------
 
+You can call the commands from the [.travis.yml](.travis.yml) script to download dependencies.
+
+Cloning the specific repos inside the `xidel` sources directory [as shown in this issue comment](https://github.com/benibela/xidel/issues/75#issuecomment-885607583) will allow `fpc` (Free Pascal Compiler) to find the [unit files](https://www.freepascal.org/docs-html/user/usersu7.html) required for compilation.
+
 You can compile it by calling `build.sh` and install it by calling `build.sh -t`. Alternatively you can compile it with the Lazarus IDE.
 
-You can call the commands from the [.travis.yml](.travis.yml) script to download dependencies.
+
 
 
 
